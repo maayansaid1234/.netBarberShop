@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberShopApi", "BarberShopApi\BarberShopApi.csproj", "{6706F243-5B91-4FB2-BA2E-1D2C800020B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberShopApi", "BarberShopApi\BarberShopApi.csproj", "{6706F243-5B91-4FB2-BA2E-1D2C800020B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberShopBL", "BarberShopBL\BarberShopBL.csproj", "{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberShopBL", "BarberShopBL\BarberShopBL.csproj", "{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberShopDB", "BarberShopDB\BarberShopDB.csproj", "{F934095B-7742-4160-B39A-4675D62DB1A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberShopDB", "BarberShopDB\BarberShopDB.csproj", "{F934095B-7742-4160-B39A-4675D62DB1A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberShopEntities", "BarberShopEntities\BarberShopEntities.csproj", "{E73EFC98-F97F-40D3-B70C-5B65FFC28ADB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberShopEntities", "BarberShopEntities\BarberShopEntities.csproj", "{E73EFC98-F97F-40D3-B70C-5B65FFC28ADB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC4D1210-CA08-43EB-9A96-62FB13A5BC75}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
