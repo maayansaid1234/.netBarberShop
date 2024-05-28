@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|solutionrelative:barbershopapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|solutionrelative:barbershopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,11 +98,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Dockerfile",
+              "RelativeDocumentMoniker": "BarberShopApi\\Dockerfile",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Dockerfile",
+              "RelativeToolTip": "BarberShopApi\\Dockerfile",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-28T18:57:50.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IUserDB.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Interfaces\\IUserDB.cs",
               "RelativeDocumentMoniker": "BarberShopDB\\Interfaces\\IUserDB.cs",
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IAppointmentDB.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Interfaces\\IAppointmentDB.cs",
               "RelativeDocumentMoniker": "BarberShopDB\\Interfaces\\IAppointmentDB.cs",
@@ -122,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserDB.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Services\\UserDB.cs",
               "RelativeDocumentMoniker": "BarberShopDB\\Services\\UserDB.cs",
@@ -134,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Program.cs",
               "RelativeDocumentMoniker": "BarberShopApi\\Program.cs",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppointmentDB.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Services\\AppointmentDB.cs",
               "RelativeDocumentMoniker": "BarberShopDB\\Services\\AppointmentDB.cs",
@@ -159,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\EF\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "BarberShopDB\\EF\\Models\\Appointment.cs",
@@ -171,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserBL.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Services\\UserBL.cs",
               "RelativeDocumentMoniker": "BarberShopBL\\Services\\UserBL.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\EF\\Models\\User.cs",
               "RelativeDocumentMoniker": "BarberShopDB\\EF\\Models\\User.cs",
@@ -195,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IUserBL.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Interfaces\\IUserBL.cs",
               "RelativeDocumentMoniker": "BarberShopBL\\Interfaces\\IUserBL.cs",
@@ -207,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IAppointmentBL.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Interfaces\\IAppointmentBL.cs",
               "RelativeDocumentMoniker": "BarberShopBL\\Interfaces\\IAppointmentBL.cs",
@@ -219,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BarberShopApi.csproj",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\BarberShopApi.csproj",
               "RelativeDocumentMoniker": "BarberShopApi\\BarberShopApi.csproj",
@@ -231,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BarberShopBL.csproj",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\BarberShopBL.csproj",
               "RelativeDocumentMoniker": "BarberShopBL\\BarberShopBL.csproj",
@@ -243,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "BarberShopApi\\Controllers\\AppointmentController.cs",
@@ -255,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AppointmentBL.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Services\\AppointmentBL.cs",
               "RelativeDocumentMoniker": "BarberShopBL\\Services\\AppointmentBL.cs",
@@ -267,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BarberShopApi\\Controllers\\UserController.cs",
@@ -279,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "BarberShopApi",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\BarberShopApi.csproj",
               "RelativeDocumentMoniker": "BarberShopApi\\BarberShopApi.csproj",
@@ -290,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "BarberShopContext.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\EF\\Contexts\\BarberShopContext.cs",
               "RelativeDocumentMoniker": "BarberShopDB\\EF\\Contexts\\BarberShopContext.cs",
@@ -302,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BarberShopApi.http",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\BarberShopApi.http",
               "RelativeDocumentMoniker": "BarberShopApi\\BarberShopApi.http",
@@ -314,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\appsettings.json",
               "RelativeDocumentMoniker": "BarberShopApi\\appsettings.json",
@@ -326,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "BarberShopDB.csproj",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\BarberShopDB.csproj",
               "RelativeDocumentMoniker": "BarberShopDB\\BarberShopDB.csproj",
@@ -338,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AppSettings.cs",
               "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopEntities\\AppSettings.cs",
               "RelativeDocumentMoniker": "BarberShopEntities\\AppSettings.cs",
