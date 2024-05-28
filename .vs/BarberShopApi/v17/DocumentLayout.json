@@ -1,0 +1,356 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|solutionrelative:barbershopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopdb\\ef\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|solutionrelative:barbershopdb\\ef\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopbl\\services\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|solutionrelative:barbershopbl\\services\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopdb\\ef\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|solutionrelative:barbershopdb\\ef\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopdb\\services\\appointmentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|solutionrelative:barbershopdb\\services\\appointmentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopbl\\barbershopbl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|solutionrelative:barbershopbl\\barbershopbl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|solutionrelative:barbershopapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopapi\\barbershopapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|solutionrelative:barbershopapi\\barbershopapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopdb\\services\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|solutionrelative:barbershopdb\\services\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopdb\\interfaces\\iappointmentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|solutionrelative:barbershopdb\\interfaces\\iappointmentdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopdb\\interfaces\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|solutionrelative:barbershopdb\\interfaces\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopbl\\interfaces\\iappointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|solutionrelative:barbershopbl\\interfaces\\iappointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopbl\\services\\appointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|solutionrelative:barbershopbl\\services\\appointmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopbl\\interfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5288D1E-6E30-445D-9EAE-B16E5AA5AC87}|BarberShopBL\\BarberShopBL.csproj|solutionrelative:barbershopbl\\interfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|solutionrelative:barbershopapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopapi\\barbershopapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|solutionrelative:barbershopapi\\barbershopapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopdb\\ef\\contexts\\barbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|solutionrelative:barbershopdb\\ef\\contexts\\barbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopapi\\barbershopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|solutionrelative:barbershopapi\\barbershopapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6706F243-5B91-4FB2-BA2E-1D2C800020B3}|BarberShopApi\\BarberShopApi.csproj|solutionrelative:barbershopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopdb\\barbershopdb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F934095B-7742-4160-B39A-4675D62DB1A2}|BarberShopDB\\BarberShopDB.csproj|solutionrelative:barbershopdb\\barbershopdb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E73EFC98-F97F-40D3-B70C-5B65FFC28ADB}|BarberShopEntities\\BarberShopEntities.csproj|c:\\users\\nirsa\\desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\c#\\barbershopapi\\barbershopentities\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73EFC98-F97F-40D3-B70C-5B65FFC28ADB}|BarberShopEntities\\BarberShopEntities.csproj|solutionrelative:barbershopentities\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserDB.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Interfaces\\IUserDB.cs",
+              "RelativeDocumentMoniker": "BarberShopDB\\Interfaces\\IUserDB.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Interfaces\\IUserDB.cs",
+              "RelativeToolTip": "BarberShopDB\\Interfaces\\IUserDB.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:48:57.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAppointmentDB.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Interfaces\\IAppointmentDB.cs",
+              "RelativeDocumentMoniker": "BarberShopDB\\Interfaces\\IAppointmentDB.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Interfaces\\IAppointmentDB.cs",
+              "RelativeToolTip": "BarberShopDB\\Interfaces\\IAppointmentDB.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:19:18.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDB.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Services\\UserDB.cs",
+              "RelativeDocumentMoniker": "BarberShopDB\\Services\\UserDB.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Services\\UserDB.cs",
+              "RelativeToolTip": "BarberShopDB\\Services\\UserDB.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:49:05.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Program.cs",
+              "RelativeDocumentMoniker": "BarberShopApi\\Program.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Program.cs",
+              "RelativeToolTip": "BarberShopApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T13:15:18.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppointmentDB.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Services\\AppointmentDB.cs",
+              "RelativeDocumentMoniker": "BarberShopDB\\Services\\AppointmentDB.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\Services\\AppointmentDB.cs",
+              "RelativeToolTip": "BarberShopDB\\Services\\AppointmentDB.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:20:14.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\EF\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "BarberShopDB\\EF\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\EF\\Models\\Appointment.cs",
+              "RelativeToolTip": "BarberShopDB\\EF\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:29:36.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserBL.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Services\\UserBL.cs",
+              "RelativeDocumentMoniker": "BarberShopBL\\Services\\UserBL.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Services\\UserBL.cs",
+              "RelativeToolTip": "BarberShopBL\\Services\\UserBL.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:48:22.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\EF\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BarberShopDB\\EF\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\EF\\Models\\User.cs",
+              "RelativeToolTip": "BarberShopDB\\EF\\Models\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:30:06.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserBL.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Interfaces\\IUserBL.cs",
+              "RelativeDocumentMoniker": "BarberShopBL\\Interfaces\\IUserBL.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Interfaces\\IUserBL.cs",
+              "RelativeToolTip": "BarberShopBL\\Interfaces\\IUserBL.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:48:09.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAppointmentBL.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Interfaces\\IAppointmentBL.cs",
+              "RelativeDocumentMoniker": "BarberShopBL\\Interfaces\\IAppointmentBL.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Interfaces\\IAppointmentBL.cs",
+              "RelativeToolTip": "BarberShopBL\\Interfaces\\IAppointmentBL.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAtwA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:17:47.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BarberShopApi.csproj",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\BarberShopApi.csproj",
+              "RelativeDocumentMoniker": "BarberShopApi\\BarberShopApi.csproj",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\BarberShopApi.csproj",
+              "RelativeToolTip": "BarberShopApi\\BarberShopApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T16:25:25.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BarberShopBL.csproj",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\BarberShopBL.csproj",
+              "RelativeDocumentMoniker": "BarberShopBL\\BarberShopBL.csproj",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\BarberShopBL.csproj",
+              "RelativeToolTip": "BarberShopBL\\BarberShopBL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T16:55:59.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "BarberShopApi\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "BarberShopApi\\Controllers\\AppointmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:00:21.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppointmentBL.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Services\\AppointmentBL.cs",
+              "RelativeDocumentMoniker": "BarberShopBL\\Services\\AppointmentBL.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Services\\AppointmentBL.cs",
+              "RelativeToolTip": "BarberShopBL\\Services\\AppointmentBL.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:18:40.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BarberShopApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BarberShopApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAC4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:45:02.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BarberShopApi",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\BarberShopApi.csproj",
+              "RelativeDocumentMoniker": "BarberShopApi\\BarberShopApi.csproj",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\BarberShopApi.csproj",
+              "RelativeToolTip": "BarberShopApi\\BarberShopApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T15:05:19.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BarberShopContext.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\EF\\Contexts\\BarberShopContext.cs",
+              "RelativeDocumentMoniker": "BarberShopDB\\EF\\Contexts\\BarberShopContext.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\EF\\Contexts\\BarberShopContext.cs",
+              "RelativeToolTip": "BarberShopDB\\EF\\Contexts\\BarberShopContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:37:17.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BarberShopApi.http",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\BarberShopApi.http",
+              "RelativeDocumentMoniker": "BarberShopApi\\BarberShopApi.http",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\BarberShopApi.http",
+              "RelativeToolTip": "BarberShopApi\\BarberShopApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-24T14:18:05.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BarberShopApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopApi\\appsettings.json",
+              "RelativeToolTip": "BarberShopApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-24T12:37:58.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BarberShopDB.csproj",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\BarberShopDB.csproj",
+              "RelativeDocumentMoniker": "BarberShopDB\\BarberShopDB.csproj",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopDB\\BarberShopDB.csproj",
+              "RelativeToolTip": "BarberShopDB\\BarberShopDB.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-24T12:35:06.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopEntities\\AppSettings.cs",
+              "RelativeDocumentMoniker": "BarberShopEntities\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopEntities\\AppSettings.cs",
+              "RelativeToolTip": "BarberShopEntities\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:39:07.022Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

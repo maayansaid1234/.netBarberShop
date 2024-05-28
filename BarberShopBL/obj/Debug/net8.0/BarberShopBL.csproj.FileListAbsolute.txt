@@ -1,0 +1,17 @@
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\bin\Debug\net8.0\BarberShopBL.deps.json
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\bin\Debug\net8.0\BarberShopBL.dll
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\bin\Debug\net8.0\BarberShopBL.pdb
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\BarberShopBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\BarberShopBL.AssemblyInfoInputs.cache
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\BarberShopBL.AssemblyInfo.cs
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\BarberShopBL.csproj.CoreCompileInputs.cache
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\BarberShopBL.dll
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\refint\BarberShopBL.dll
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\BarberShopBL.pdb
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\ref\BarberShopBL.dll
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\BarberShopBL.csproj.AssemblyReference.cache
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\bin\Debug\net8.0\BarberShopDB.dll
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\bin\Debug\net8.0\BarberShopEntities.dll
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\bin\Debug\net8.0\BarberShopDB.pdb
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\bin\Debug\net8.0\BarberShopEntities.pdb
+C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\obj\Debug\net8.0\BarberSh.F048D52E.Up2Date
