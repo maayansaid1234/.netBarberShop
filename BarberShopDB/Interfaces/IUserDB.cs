@@ -13,11 +13,8 @@ namespace BarberShopDB.Interfaces
     {
          User AddUser(User user);
         List<User> GetAllUsers();
-        List<Appointment> GetAllAppointments();
-        User LogIn(User user);
-
-        
-  
+        User Login(User user);
+     
 
     }
 }

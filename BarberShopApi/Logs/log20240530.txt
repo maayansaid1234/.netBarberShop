@@ -1,0 +1,6 @@
+2024-05-30 00:38:10.564 +03:00 [ERR] Error on AddAppointment, Message: The input string 'G' was not in a correct format., InnerException: , StackTrace:    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToInt32(String value)
+   at BarberShopApi.Controllers.AppointmentController.AddAppointment(Appointment appointment) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\AppointmentController.cs:line 40
+2024-05-30 00:38:25.181 +03:00 [ERR] Error on AddAppointment, Message: The input string 'G' was not in a correct format., InnerException: , StackTrace:    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToInt32(String value)
+   at BarberShopApi.Controllers.AppointmentController.AddAppointment(Appointment appointment) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\AppointmentController.cs:line 40

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xNKgY19/vLvKVxWRsH/DoX9am7nhV9hzuPknGmSqftq7jLDW+Mvq+8Wu226iaXUAbphTUX1KokBvD9yc2Pxc6Q==",
+  "dgSpecHash": "JblwfKP+Q+p4YVsfL8JaWTTf0Hjri6BfL/kUFMMdMIdmfgy/y1QdOf0sr5smx1HgDHneqrS8RxH3+Hwp5pnbTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nirsa\\Desktop\\מעיין סעיד\\C#\\BarberShopApi\\BarberShopDB\\BarberShopDB.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nirsa\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\nirsa\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

@@ -1,23 +1,22 @@
-# Use the official ASP.NET Core runtime as a parent image
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+# Use the official .NET SDK image as a parent image
+FROM mcr.microsoft.com/dotnet/sdk:8 AS build
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
 
-# Use the official build image
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /src
-COPY ["BarberShopApi.csproj", "./"]
-RUN dotnet restore "BarberShopApi.csproj"
+# Copy csproj and restore as distinct layers
+COPY *.csproj .
+RUN dotnet restore
+
+# Copy everything else and build
 COPY . .
-WORKDIR "/src/."
-RUN dotnet build "BarberShopApi.csproj" -c Release -o /app/build
+RUN dotnet build -c Release -o /app/build
 
+# Publish the application
 FROM build AS publish
-RUN dotnet publish "BarberShopApi.csproj" -c Release -o /app/publish
+RUN dotnet publish -c Release -o /app/publish
 
-# Final stage/image
-FROM base AS final
+# Use the official ASP.NET Core runtime image as a parent image
+FROM mcr.microsoft.com/dotnet/aspnet:8 AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "BarberShopApi.dll"]
+

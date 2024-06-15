@@ -1,0 +1,39 @@
+2024-06-03 00:21:08.402 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-03 00:22:34.944 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-03 00:44:34.498 +03:00 [INF] Adding new appointment at :03/06/2024 00:44:34.appointmentTime: 05/06/2024 17:00:00 by user id:1
+2024-06-03 00:50:30.220 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :05/06/2024 17:00:00
+2024-06-03 00:50:57.024 +03:00 [INF] Adding new appointment at :03/06/2024 00:50:57.appointmentTime: 05/06/2024 16:00:00 by user id:1
+2024-06-03 00:52:22.402 +03:00 [INF] Adding new appointment at :03/06/2024 00:52:22.appointmentTime: 05/06/2024 08:07:00 by user id:1
+2024-06-03 00:54:27.648 +03:00 [INF] Adding new appointment at :03/06/2024 00:54:27.appointmentTime: 05/06/2024 13:07:00 by user id:1
+2024-06-03 00:59:05.344 +03:00 [INF] Adding new appointment at :03/06/2024 00:59:05.appointmentTime: 05/07/2024 09:58:00 by user id:1
+2024-06-03 01:00:07.953 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :05/07/2024 09:58:00
+2024-06-03 01:03:24.521 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :05/07/2024 09:58:00
+2024-06-03 01:04:46.405 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :05/07/2024 09:58:00
+2024-06-03 01:05:03.897 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :05/07/2024 09:58:00
+2024-06-03 01:08:22.293 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-03 01:11:45.037 +03:00 [INF] Deleting appointment code: 4
+2024-06-03 01:16:24.406 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-03 15:54:33.182 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-03 16:01:29.838 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-03 21:17:01.746 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-03 21:17:31.633 +03:00 [INF] Adding new appointment at :03/06/2024 21:17:31.appointmentTime: 03/06/2024 18:17:22 by user id:1
+2024-06-03 22:30:23.522 +03:00 [ERR] Error on GetAllHaircuts, Message: Value cannot be null. (Parameter 'key'), InnerException: , StackTrace:    at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at BarberShopApi.Controllers.HaircutController.GetAllHaircuts() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\HaircutController.cs:line 30
+2024-06-03 22:34:07.032 +03:00 [ERR] Error on GetAllHaircuts, Message: Value cannot be null. (Parameter 'key'), InnerException: , StackTrace:    at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at BarberShopApi.Controllers.HaircutController.GetAllHaircuts() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\HaircutController.cs:line 30
+2024-06-03 22:34:42.457 +03:00 [ERR] Error on GetAllHaircuts, Message: Value cannot be null. (Parameter 'key'), InnerException: , StackTrace:    at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at BarberShopApi.Controllers.HaircutController.GetAllHaircuts() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\HaircutController.cs:line 30
+2024-06-03 22:44:25.266 +03:00 [ERR] Error on GetAllHaircuts, Message: Value cannot be null. (Parameter 'key'), InnerException: , StackTrace:    at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at BarberShopApi.Controllers.HaircutController.GetAllHaircuts() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\HaircutController.cs:line 30
+2024-06-03 22:52:10.734 +03:00 [ERR] Error on GetAllHaircuts, Message: Value cannot be null. (Parameter 'key'), InnerException: , StackTrace:    at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Caching.Memory.MemoryCache.TryGetValue(Object key, Object& result)
+   at Microsoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue[TItem](IMemoryCache cache, Object key, TItem& value)
+   at BarberShopApi.Controllers.HaircutController.GetAllHaircuts() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\HaircutController.cs:line 30

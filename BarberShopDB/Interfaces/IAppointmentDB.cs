@@ -1,5 +1,6 @@
 ﻿using BarberShopDB.EF.Models;
 using BarberShopDB.Services;
+using BarberShopEntities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,9 @@ namespace BarberShopDB.Interfaces
 {
     public interface IAppointmentDB
     {
-        List<Appointment> GetAllAppointments();
-        Appointment AddAppointment(Appointment appointment);
-        Appointment UpdateAppointment(int id,Appointment appointment);
-        Appointment DeleteAppointment(int id );
+        List<AppointmentFullDetails> GetAllAppointments();
+        Appointment AddAppointment(Appointment appointment, int userId);
+        Appointment UpdateAppointment(int id,Appointment appointment, int userId);
+        Appointment DeleteAppointment(int id, int userId);
     }
 }

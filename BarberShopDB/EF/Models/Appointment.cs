@@ -9,9 +9,13 @@ public partial class Appointment
 
     public DateTime? SchedulingDate { get; set; }
 
-    public DateTime? AppointmentTime { get; set; }
+    public DateTime AppointmentTime { get; set; }
 
     public int? UserId { get; set; }
+
+    public int? HaircutId { get; set; }
+
+    public virtual Haircut? Haircut { get; set; }
 
     public virtual User? User { get; set; }
 }

@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "W88ZYWUftGCwF5rgf4sVdVc+CyLni2EzWrSKtkpqtOaZTylUC7agy/W93F2MjMv0cJKrTx9HuMwQqkhHTHR22A==",
+  "dgSpecHash": "JImp6qif0jM/VRmrPZTs0J2XgkiInVUqEZHX/CRyY7CUWMGUozhKD7u7lc2HdJUq38WYsaFkck5OJlGTO0Gg3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\nirsa\\Desktop\\מעיין סעיד\\C#\\BarberShopApi\\BarberShopBL\\BarberShopBL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nirsa\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\nirsa\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",

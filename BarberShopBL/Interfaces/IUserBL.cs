@@ -1,4 +1,5 @@
 ﻿using BarberShopDB.EF.Models;
+using BarberShopEntities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,12 @@ namespace BarberShopBL.Interfaces
 {
     public interface IUserBL
     {
-        User AddUser(User user);
+        User AddUser(UserAddDTO user);
         List<User> GetAllUsers();
-        User LogIn(User user);
-        
+        User Login(UserLoginDTO user);
+        string GetUserName();
+        void Logout();
     }
+
 }
+

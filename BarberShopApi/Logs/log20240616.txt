@@ -1,0 +1,8 @@
+2024-06-16 00:21:25.785 +03:00 [ERR] Error on GetUserName, Message: Value cannot be null. (Parameter 'bytes'), InnerException: , StackTrace:    at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetString(Byte[] bytes)
+   at BarberShopBL.Services.UserBL.GetUserName() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 80
+   at BarberShopApi.Controllers.UserController.GetUserName() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 124
+2024-06-16 00:21:25.884 +03:00 [ERR] Error on GetUserName, Message: Value cannot be null. (Parameter 'bytes'), InnerException: , StackTrace:    at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetString(Byte[] bytes)
+   at BarberShopBL.Services.UserBL.GetUserName() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 80
+   at BarberShopApi.Controllers.UserController.GetUserName() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 124

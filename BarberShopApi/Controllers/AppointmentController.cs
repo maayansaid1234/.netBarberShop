@@ -1,90 +1,115 @@
 using BarberShopBL.Interfaces;
 using BarberShopDB.EF.Models;
+using BarberShopEntities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace BarberShopApi.Controllers
 {
+    [Authorize]
+    
     [ApiController]
     [Route("api/[controller]/[action]")]
     public class AppointmentController : ControllerBase
     {
         private readonly IAppointmentBL _appointmentBL;
-        public AppointmentController(IAppointmentBL appointmentDB)
+        private readonly ILogger<AppointmentController> _logger;
+        public AppointmentController(IAppointmentBL appointmentDB,
+            ILogger<AppointmentController> logger)
         {
             _appointmentBL = appointmentDB;
+            _logger=logger;
         }
-
-
-        // private readonly ILogger<UserController> _logger;
 
 
         [HttpPost]
-
-        public IActionResult AddAppointment([FromBody] Appointment appointment)
+        public IActionResult AddAppointment([FromBody]
+        AppointmentAddAndUpdateDTO appointment)
 
         {
             try
             {
+               
+                Appointment a= _appointmentBL.AddAppointment(appointment);
+                if(a == null)
+                {
+                    return StatusCode(409, "There is an appointmnet already at this time");
 
+                }
 
-                return Ok(_appointmentBL.AddAppointment(appointment));
+                return Ok(a);
 
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "An error occurred. The operation failed");
+                _logger.LogError($"Error on AddAppointment, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
         [HttpPut("{id?}")]
-        public IActionResult UpdateAppointment([FromRoute] int id,[FromBody] Appointment appointment)
+        public IActionResult UpdateAppointment([FromRoute] int id,[FromBody] AppointmentAddAndUpdateDTO appointment)
 
         {
             try
             {
 
-
-                return Ok(_appointmentBL.UpdateAppointment(id,appointment));
+              
+                Appointment appointment1 = _appointmentBL.UpdateAppointment(id,
+                    appointment);
+                    if(appointment1 == null)
+                    {
+                    return StatusCode(404, "Appointment doesn't exist");
+                    }
+                    return Ok(appointment1);
 
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "An error occurred. The operation failed");
+                _logger.LogError($"Error on UpdateAppointment, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
         [HttpDelete("{id?}")]
         public IActionResult DeleteAppointment([FromRoute] int id)
 
         {
-            try
-            {
-
-                _appointmentBL.DeleteAppointment(id);
-                return Ok("Deleted successfully");
+            try { 
+            
+                Appointment appointment= _appointmentBL.DeleteAppointment(id);
+                
+                if (appointment == null)
+                {
+                    return StatusCode(404, "Appointment doesn't exist");
+                }
+                return Ok(appointment);
+             
 
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "An error occurred. The operation failed");
+                _logger.LogError($"Error on DeleteAppointment, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
-        [HttpGet]
-        public IActionResult GetAllAppointments()
 
+        [HttpGet]
+        
+        public IActionResult GetAllAppointments()
         {
             try
             {
-
-
                 return Ok(_appointmentBL.GetAllAppointments());
-
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "An error occurred. The operation failed");
+                _logger.LogError($"Error on GetAllAppointments, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
     }
