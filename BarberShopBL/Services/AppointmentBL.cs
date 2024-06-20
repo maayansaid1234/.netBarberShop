@@ -26,28 +26,32 @@ namespace BarberShopBL.Services
             _httpContextAccessor = httpContextAccessor; 
         }
 
-        public List<AppointmentFullDetails> GetAllAppointments()
+        public BaseResponse<List<AppointmentFullDetails>> GetAllAppointments()
         {
             return _appointmentDB.GetAllAppointments();
         }
-        public Appointment  AddAppointment(AppointmentAddAndUpdateDTO appointment)
+        public BaseResponse<Appointment>  AddAppointment(AppointmentAddAndUpdateDTO appointment)
         {
            Appointment appointmentMapped= _mapper.Map<Appointment>(appointment);
-            int userId=getUserIdByUserToken();
+            int userId= GetUserIdByUserToken();
             return _appointmentDB.AddAppointment(appointmentMapped, userId);
         }
-        public Appointment UpdateAppointment(int id,AppointmentAddAndUpdateDTO appointment)
+        public BaseResponse<Appointment> UpdateAppointment(int id,AppointmentAddAndUpdateDTO appointment)
         {
             Appointment appointmentMapped = _mapper.Map<Appointment>(appointment);
-            int userId = getUserIdByUserToken();
-            return _appointmentDB.UpdateAppointment( id ,appointmentMapped,userId);
+       
+            return _appointmentDB.UpdateAppointment( id ,appointmentMapped);
         }
-        public Appointment DeleteAppointment(int id)
+        public BaseResponse<Appointment> DeleteAppointment(int id)
         {
-            int userId = getUserIdByUserToken();
-            return _appointmentDB.DeleteAppointment(id,userId);
+           
+            return _appointmentDB.DeleteAppointment(id);
         }
-        private int getUserIdByUserToken()
+        public Appointment GetAppointmentById(int id)
+        {
+            return _appointmentDB.GetAppointmentById( id);
+        }
+        public int GetUserIdByUserToken()
         {
             var token = _httpContextAccessor.HttpContext.Request.Cookies[CookiesKeys.AccessToken];
             var handler = new JwtSecurityTokenHandler();

@@ -32,13 +32,10 @@ namespace BarberShopApi.Controllers
             try
             {
                
-                User user1 = _userBL.AddUser(user);
-                if(user1 == null)
-                {
-                    return StatusCode(409,"user already exists.choose a different user name");
+                BaseResponse<User> baseResponse = _userBL.AddUser(user);
+              
+                return StatusCode(baseResponse.StatusCode, baseResponse.ErrorMessage == null ? baseResponse.Data : baseResponse.ErrorMessage);
 
-                }
-                return Ok(user1);
 
             }
             catch (Exception ex)
@@ -55,8 +52,8 @@ namespace BarberShopApi.Controllers
             try
             {
 
-               
-                return Ok(_userBL.GetAllUsers());
+                BaseResponse<List<User>> baseResponse = _userBL.GetAllUsers();
+                return StatusCode(baseResponse.StatusCode,baseResponse.Data);
 
             }
             catch (Exception ex)
@@ -74,10 +71,9 @@ namespace BarberShopApi.Controllers
             try
             {
 
-                User newUser = _userBL.Login(user);
-                if (newUser != null)
-                    return Ok(newUser);
-                return NotFound("user name or password are wrong");
+               BaseResponse<User> baseResponse = _userBL.Login(user);
+              
+                return StatusCode(baseResponse.StatusCode, baseResponse.ErrorMessage == null ? baseResponse.Data : baseResponse.ErrorMessage);
 
             }
             catch (Exception ex)
@@ -96,7 +92,7 @@ namespace BarberShopApi.Controllers
             {
                 try
                 {
-                 _userBL.Logout();
+                      _userBL.Logout();
                 //Response.Cookies.Delete(CookiesKeys.AccessToken);
                 return Ok();
                 }
@@ -113,15 +109,12 @@ namespace BarberShopApi.Controllers
 
 
         [HttpGet]
-    public IActionResult GetUserName()
+    public IActionResult GetUserNameFromSession()
 
     {
         try
-        {
-                
-
-
-            return Ok(_userBL.GetUserName());
+        {               
+            return Ok(_userBL.GetUserNameFromSession());
 
         }
         catch (Exception ex)

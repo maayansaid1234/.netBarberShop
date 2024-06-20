@@ -1,4 +1,5 @@
 ﻿using BarberShopDB.EF.Models;
+using BarberShopEntities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace BarberShopDB.Interfaces
     public interface IHaircutDB
     {
         public List<Haircut> GetAllHaircuts();
-        public Haircut AddHaircut(Haircut haircut);
+        public BaseResponse<Haircut> AddHaircut(Haircut haircut);
     }
 }

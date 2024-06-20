@@ -11,10 +11,10 @@ namespace BarberShopBL.Interfaces
 {
     public interface IUserBL
     {
-        User AddUser(UserAddDTO user);
-        List<User> GetAllUsers();
-        User Login(UserLoginDTO user);
-        string GetUserName();
+        BaseResponse<User> AddUser(UserAddDTO user);
+        BaseResponse<List<User>> GetAllUsers();
+        BaseResponse<User> Login(UserLoginDTO user);
+        string GetUserNameFromSession();
         void Logout();
     }
 

@@ -46,11 +46,11 @@ namespace BarberShopApi
            // builder.Services.AddSession();
             builder.Services.AddSession(options =>
             {
+
                 
-                options.Cookie.HttpOnly = true;
                 options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
                 options.Cookie.SameSite = SameSiteMode.None;
-                options.Cookie.MaxAge = TimeSpan.FromMinutes(appSettings.Jwt.ExpireMinutes);
+                
             });
             builder.Services.AddDistributedMemoryCache();
             builder.Services.AddMemoryCache();

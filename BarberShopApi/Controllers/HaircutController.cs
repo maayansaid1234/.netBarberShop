@@ -34,9 +34,11 @@ namespace BarberShopApi.Controllers
                         ,new MemoryCacheEntryOptions
                     {
                         AbsoluteExpirationRelativeToNow = TimeSpan.FromDays(1)
-                    }) ;
-                }
+                    });
+                  
 
+                }
+               
                 return Ok(haircuts);
             }
             catch (Exception ex)
@@ -52,7 +54,8 @@ namespace BarberShopApi.Controllers
         {
             try
             {
-                return Ok(_haircutBL.AddHaircut(haircut));
+                BaseResponse<Haircut> baseResponse = _haircutBL.AddHaircut(haircut);
+                return StatusCode(baseResponse.StatusCode, baseResponse.Data);
             }
             catch (Exception ex)
             {

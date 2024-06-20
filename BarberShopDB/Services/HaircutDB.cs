@@ -1,6 +1,8 @@
-﻿using BarberShopDB.EF.Contexts;
+﻿using Azure.Core;
+using BarberShopDB.EF.Contexts;
 using BarberShopDB.EF.Models;
 using BarberShopDB.Interfaces;
+using BarberShopEntities;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -25,11 +27,12 @@ namespace BarberShopDB.Services
             return _context.Haircuts.ToList();
         }
 
-        public Haircut AddHaircut(Haircut haircut)
+        public BaseResponse<Haircut> AddHaircut(Haircut haircut)
         {
             _context.Haircuts.Add(haircut);
             _context.SaveChanges();
-            return haircut;
+            return new BaseResponse<Haircut>(){ StatusCode = 201,IsSuccess=true
+                , Data = haircut };
         }
     }
 }

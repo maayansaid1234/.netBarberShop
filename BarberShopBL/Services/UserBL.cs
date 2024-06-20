@@ -35,35 +35,35 @@ namespace BarberShopBL.Services
 
         }
 
-        public List<User> GetAllUsers()
+        public BaseResponse<List<User>> GetAllUsers()
         {
             return _userDB.GetAllUsers();
         }
-        public User AddUser(UserAddDTO user)
+        public BaseResponse<User> AddUser(UserAddDTO user)
         {
             User userMapped = _mapper.Map<User>(user);
-            User userFromDb = _userDB.AddUser(userMapped);
-            if (userFromDb != null)
+           BaseResponse<User> baseResponse = _userDB.AddUser(userMapped);
+            if (baseResponse.IsSuccess  )
             {
-                CreateUserToken(userFromDb.Id);
-                byte[] bytearray = Encoding.ASCII.GetBytes(userFromDb.UserName);
+                CreateUserToken(baseResponse.Data.Id);
+                byte[] bytearray = Encoding.ASCII.GetBytes(baseResponse.Data.UserName);
                 _httpContextAccessor.HttpContext.Session.Set(SessionKeys.UserName, bytearray);
             } 
            
-            return userFromDb;
+            return baseResponse;
         }
-        public User Login(UserLoginDTO user)
+        public BaseResponse<User> Login(UserLoginDTO user)
         {
             User userMapped = _mapper.Map<User>(user);
-            User userFromDb = _userDB.Login(userMapped);
-            if (userFromDb != null)
+            BaseResponse < User> baseResponse = _userDB.Login(userMapped);
+            if (baseResponse.IsSuccess)
             {
-                CreateUserToken(userFromDb.Id);
-                byte[] bytearray = Encoding.ASCII.GetBytes(userFromDb.UserName);
+                CreateUserToken(baseResponse.Data.Id);
+                byte[] bytearray = Encoding.ASCII.GetBytes(baseResponse.Data.UserName);
                 _httpContextAccessor.HttpContext.Session.Set(SessionKeys.UserName, bytearray);
             }
 
-            return userFromDb;
+            return baseResponse;
         }
         public void Logout()
         {
@@ -73,7 +73,7 @@ namespace BarberShopBL.Services
          
         }
 
-        public string GetUserName()
+        public string GetUserNameFromSession()
         {
             byte[] byteArray;
             _httpContextAccessor.HttpContext.Session.TryGetValue(SessionKeys.UserName, out byteArray);
@@ -89,6 +89,7 @@ namespace BarberShopBL.Services
             {
                 HttpOnly = true,
                 Secure = true,
+                //SameSite = SameSiteMode.Strict,
                 SameSite = SameSiteMode.None,
                 Expires = DateTime.Now.AddMinutes(_appSettings.Jwt.ExpireMinutes)
             };

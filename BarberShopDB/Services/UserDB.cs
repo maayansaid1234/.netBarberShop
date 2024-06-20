@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,7 +28,7 @@ namespace BarberShopDB.Services
             _logger = logger;
         }
 
-        public User AddUser(User user)
+        public BaseResponse<User> AddUser(User user)
         {
             User userFromDB = _context.Users.FirstOrDefault(u =>
            u.UserName == user.UserName && u.Password == user.Password);
@@ -40,46 +41,51 @@ namespace BarberShopDB.Services
                 _context.SaveChanges();
                 _logger.LogInformation($"Adding a new User successfully. userName: {user.UserName}" +
                     $" Id:{user.Id}");
-                return user;
+                return new BaseResponse<User>() {StatusCode = 201, Data = user,IsSuccess=true };
             }
             else
             {
                 _logger.LogWarning($"" +
                    $"Preventing the creation of a user with an existing username {user.UserName}");
-                return null;
+               return new BaseResponse<User>() {IsSuccess=false,    
+                   StatusCode=409,ErrorMessage="There is an already user with such user name",};
 
             }
 
         }
-        public User Login(User user)
+        public BaseResponse<User> Login(User user)
         {
 
             User userFromDB = _context.Users.FirstOrDefault(u => u.UserName == user.UserName);
 
             if (userFromDB != null)
             {
-
-
                 bool isPasswordValid = BC.EnhancedVerify(user.Password, userFromDB.Password);
                 if (isPasswordValid)
                 {
                     _logger.LogInformation($"User id: {userFromDB.Id} logged in successfully.");
-                    
-                    return userFromDB;
 
-
+                    return new BaseResponse<User>() { StatusCode = 200, Data = userFromDB,IsSuccess=true };
                 }
             }
 
 
             _logger.LogWarning("Preventing login with wrong details password or userName ");
-            return null;
+            return new BaseResponse<User>() { StatusCode = 401,IsSuccess=false, ErrorMessage = "One of more from details: password or userName are wrong" };
 
 
 
         }
-        public List<User> GetAllUsers() => _context.Users.ToList();
-
+        public BaseResponse<List<User>> GetAllUsers()
+        {
+            return new BaseResponse<List<User>>()
+             {
+                StatusCode = 200,
+               Data=_context.Users.ToList(),
+               IsSuccess=true
+              }
+           ;
+        }
 
     }
 }

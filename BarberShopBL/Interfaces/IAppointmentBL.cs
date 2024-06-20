@@ -10,9 +10,11 @@ namespace BarberShopBL.Interfaces
 {
     public interface IAppointmentBL
     {
-        List<AppointmentFullDetails> GetAllAppointments();
-        Appointment AddAppointment(AppointmentAddAndUpdateDTO appointment);
-        Appointment UpdateAppointment( int id, AppointmentAddAndUpdateDTO appointment);
-       Appointment  DeleteAppointment (int id);
+       BaseResponse< List<AppointmentFullDetails>> GetAllAppointments();
+        BaseResponse<Appointment> AddAppointment(AppointmentAddAndUpdateDTO appointment);
+           BaseResponse<Appointment> UpdateAppointment( int id, AppointmentAddAndUpdateDTO appointment);
+          BaseResponse<Appointment>  DeleteAppointment (int id);
+         Appointment GetAppointmentById(int id);
+        int GetUserIdByUserToken();
     }
 }

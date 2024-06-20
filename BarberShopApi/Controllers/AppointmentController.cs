@@ -1,3 +1,4 @@
+using BarberShopApi.Attributes;
 using BarberShopBL.Interfaces;
 using BarberShopDB.EF.Models;
 using BarberShopEntities;
@@ -32,14 +33,11 @@ namespace BarberShopApi.Controllers
             try
             {
                
-                Appointment a= _appointmentBL.AddAppointment(appointment);
-                if(a == null)
-                {
-                    return StatusCode(409, "There is an appointmnet already at this time");
+               BaseResponse<Appointment> baseResponse= _appointmentBL.AddAppointment(appointment);
 
-                }
+                return StatusCode(baseResponse.StatusCode, baseResponse.IsSuccess ? baseResponse.Data : baseResponse.ErrorMessage);
 
-                return Ok(a);
+
 
             }
             catch (Exception ex)
@@ -50,6 +48,7 @@ namespace BarberShopApi.Controllers
             }
         }
         [HttpPut("{id?}")]
+        [TypeFilter(typeof(ValidateOwnerAttribute))]
         public IActionResult UpdateAppointment([FromRoute] int id,[FromBody] AppointmentAddAndUpdateDTO appointment)
 
         {
@@ -57,13 +56,14 @@ namespace BarberShopApi.Controllers
             {
 
               
-                Appointment appointment1 = _appointmentBL.UpdateAppointment(id,
+                BaseResponse<Appointment> baseResponse = _appointmentBL.UpdateAppointment(id,
                     appointment);
-                    if(appointment1 == null)
-                    {
-                    return StatusCode(404, "Appointment doesn't exist");
-                    }
-                    return Ok(appointment1);
+                 
+                  
+                  return StatusCode(baseResponse.StatusCode, 
+                      baseResponse.IsSuccess?baseResponse.Data: baseResponse.ErrorMessage);
+                    
+                  
 
             }
             catch (Exception ex)
@@ -74,18 +74,16 @@ namespace BarberShopApi.Controllers
             }
         }
         [HttpDelete("{id?}")]
+        [TypeFilter(typeof(ValidateOwnerAttribute))]
         public IActionResult DeleteAppointment([FromRoute] int id)
 
         {
-            try { 
-            
-                Appointment appointment= _appointmentBL.DeleteAppointment(id);
+            try {
+
+                BaseResponse<Appointment> baseResponse = _appointmentBL.DeleteAppointment(id);
                 
-                if (appointment == null)
-                {
-                    return StatusCode(404, "Appointment doesn't exist");
-                }
-                return Ok(appointment);
+              
+                return StatusCode(baseResponse.StatusCode);
              
 
             }
@@ -103,7 +101,8 @@ namespace BarberShopApi.Controllers
         {
             try
             {
-                return Ok(_appointmentBL.GetAllAppointments());
+                BaseResponse < List<AppointmentFullDetails> >  baseResponse= _appointmentBL.GetAllAppointments();
+                return StatusCode(baseResponse.StatusCode, baseResponse.Data);
             }
             catch (Exception ex)
             {

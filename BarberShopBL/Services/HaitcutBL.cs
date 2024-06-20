@@ -27,7 +27,7 @@ namespace BarberShopBL.Services
             return _haircutDB.GetAllHaircuts();
         }
 
-        public Haircut AddHaircut(Haircut haircut)
+        public BaseResponse<Haircut> AddHaircut(Haircut haircut)
         {
             return _haircutDB.AddHaircut(haircut);
         }
