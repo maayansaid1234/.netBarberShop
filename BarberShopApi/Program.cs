@@ -50,6 +50,7 @@ namespace BarberShopApi
                 
                 options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
                 options.Cookie.SameSite = SameSiteMode.None;
+
                 
             });
             builder.Services.AddDistributedMemoryCache();

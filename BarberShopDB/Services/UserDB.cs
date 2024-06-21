@@ -31,7 +31,7 @@ namespace BarberShopDB.Services
         public BaseResponse<User> AddUser(User user)
         {
             User userFromDB = _context.Users.FirstOrDefault(u =>
-           u.UserName == user.UserName && u.Password == user.Password);
+           u.UserName == user.UserName );
             if (userFromDB == null)
             {
                 string hashedPassword = BC.EnhancedHashPassword(
@@ -41,14 +41,16 @@ namespace BarberShopDB.Services
                 _context.SaveChanges();
                 _logger.LogInformation($"Adding a new User successfully. userName: {user.UserName}" +
                     $" Id:{user.Id}");
-                return new BaseResponse<User>() {StatusCode = 201, Data = user,IsSuccess=true };
+                return new BaseResponse<User>() {StatusCode = 201,
+                    Data = user,IsSuccess=true };
             }
             else
             {
                 _logger.LogWarning($"" +
                    $"Preventing the creation of a user with an existing username {user.UserName}");
-               return new BaseResponse<User>() {IsSuccess=false,    
-                   StatusCode=409,ErrorMessage="There is an already user with such user name",};
+               return new BaseResponse<User>() {
+                   IsSuccess=false,    
+                   StatusCode=409,ErrorMessage="There is  already a user with such user name",};
 
             }
 
@@ -65,13 +67,15 @@ namespace BarberShopDB.Services
                 {
                     _logger.LogInformation($"User id: {userFromDB.Id} logged in successfully.");
 
-                    return new BaseResponse<User>() { StatusCode = 200, Data = userFromDB,IsSuccess=true };
+                    return new BaseResponse<User>() { StatusCode = 200, 
+                        Data = userFromDB,IsSuccess=true };
                 }
             }
 
 
             _logger.LogWarning("Preventing login with wrong details password or userName ");
-            return new BaseResponse<User>() { StatusCode = 401,IsSuccess=false, ErrorMessage = "One of more from details: password or userName are wrong" };
+            return new BaseResponse<User>() { StatusCode = 401,IsSuccess=false,
+                ErrorMessage = "One or more details: password,userName are wrong" };
 
 
 

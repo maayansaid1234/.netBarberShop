@@ -66,7 +66,7 @@ namespace BarberShopDB.Services
                    {
                      StatusCode = 409,
                      IsSuccess=false,
-                     ErrorMessage = "Threre is already appointment at this time"
+                     ErrorMessage = "Threre is already an appointment at this time"
                    };
     
                 }
