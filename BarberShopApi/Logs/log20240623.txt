@@ -1,0 +1,59 @@
+2024-06-23 01:14:55.739 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-23 01:14:55.914 +03:00 [ERR] Error on Login, Message: Object reference not set to an instance of an object., InnerException: , StackTrace:    at BarberShopDB.Services.UserDB.Login(User user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopDB\Services\UserDB.cs:line 73
+   at BarberShopBL.Services.UserBL.Login(UserLoginDTO user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 62
+   at BarberShopApi.Controllers.UserController.Login(UserLoginDTO user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 75
+2024-06-23 01:16:20.636 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-23 01:16:20.643 +03:00 [ERR] Error on Login, Message: Object reference not set to an instance of an object., InnerException: , StackTrace:    at BarberShopDB.Services.UserDB.Login(User user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopDB\Services\UserDB.cs:line 73
+   at BarberShopBL.Services.UserBL.Login(UserLoginDTO user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 62
+   at BarberShopApi.Controllers.UserController.Login(UserLoginDTO user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 75
+2024-06-23 01:16:39.687 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-23 01:16:39.687 +03:00 [ERR] Error on Login, Message: Object reference not set to an instance of an object., InnerException: , StackTrace:    at BarberShopDB.Services.UserDB.Login(User user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopDB\Services\UserDB.cs:line 73
+   at BarberShopBL.Services.UserBL.Login(UserLoginDTO user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 62
+   at BarberShopApi.Controllers.UserController.Login(UserLoginDTO user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 75
+2024-06-23 01:22:25.768 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-23 01:24:11.878 +03:00 [ERR] Error on Login, Message: Object reference not set to an instance of an object., InnerException: , StackTrace:    at BarberShopDB.Services.UserDB.Login(User user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopDB\Services\UserDB.cs:line 73
+   at BarberShopBL.Services.UserBL.Login(UserLoginDTO user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 62
+   at BarberShopApi.Controllers.UserController.Login(UserLoginDTO user) in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 75
+2024-06-23 01:25:36.259 +03:00 [INF] User id: 14 logged in successfully.
+2024-06-23 01:31:20.831 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-23 01:31:26.813 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:31:26.842 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:31:41.434 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-23 01:31:50.811 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:31:50.837 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:31:50.885 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:32:29.471 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:32:29.489 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:32:36.460 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:32:36.467 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:33:08.600 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:36:04.670 +03:00 [ERR] Error on GetUserName, Message: Unable to cast object of type 'Newtonsoft.Json.Linq.JObject' to type 'BarberShopEntities.UserInfo'., InnerException: , StackTrace:    at BarberShopBL.Services.UserBL.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopBL\Services\UserBL.cs:line 91
+   at BarberShopApi.Controllers.UserController.GetUserFromSession() in C:\Users\nirsa\Desktop\מעיין סעיד\C#\BarberShopApi\BarberShopApi\Controllers\UserController.cs:line 118
+2024-06-23 01:37:00.898 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-23 01:49:04.626 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-23 01:49:42.461 +03:00 [INF] Adding new appointment at :23/06/2024 01:49:42.appointmentTime: 23/06/2024 15:49:00 by user id:1
+2024-06-23 01:50:01.275 +03:00 [INF] Updating  appointment code:0from 23/06/2024 16:49:00 to : 23/06/2024 16:49:00
+2024-06-23 01:50:14.230 +03:00 [INF] Adding new appointment at :23/06/2024 01:50:14.appointmentTime: 23/06/2024 18:50:00 by user id:1
+2024-06-23 01:51:07.476 +03:00 [INF] Updating  appointment code:0from 23/06/2024 16:50:00 to : 23/06/2024 16:50:00
+2024-06-23 01:51:52.678 +03:00 [INF] Adding a new User successfully. userName: ELA Id:15
+2024-06-23 01:52:07.147 +03:00 [INF] Adding new appointment at :23/06/2024 01:52:07.appointmentTime: 23/06/2024 16:52:00 by user id:15
+2024-06-23 01:52:51.533 +03:00 [INF] User id: 15 logged in successfully.
+2024-06-23 01:53:17.238 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :23/06/2024 18:50:00
+2024-06-23 01:53:24.508 +03:00 [INF] Updating  appointment code:0from 23/06/2024 18:55:00 to : 23/06/2024 18:55:00
+2024-06-23 01:53:52.009 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-23 01:54:10.113 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :23/06/2024 18:50:00
+2024-06-23 01:54:16.571 +03:00 [INF] Adding new appointment at :23/06/2024 01:54:16.appointmentTime: 23/06/2024 18:59:00 by user id:1
+2024-06-23 01:54:20.276 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :23/06/2024 18:59:00
+2024-06-23 01:54:32.139 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :23/06/2024 18:59:00
+2024-06-23 01:54:44.899 +03:00 [INF] Updating  appointment code:0from 23/06/2024 18:59:00 to : 23/06/2024 18:59:00
+2024-06-23 01:54:56.937 +03:00 [WRN] Preventing the scheduling of an appointment at a time that is already booked.appointment time :23/06/2024 18:55:00

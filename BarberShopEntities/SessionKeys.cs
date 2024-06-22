@@ -8,6 +8,6 @@ namespace BarberShopEntities
 {
     public class SessionKeys
     {
-        public static string UserName { get; set; } = "userName";
+        public static string UserInfo { get; set; } = "userInfo";
     }
 }

@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -39,28 +41,33 @@ namespace BarberShopBL.Services
         {
             return _userDB.GetAllUsers();
         }
-        public BaseResponse<User> AddUser(UserAddDTO user)
+        public BaseResponse<UserInfo> AddUser(UserAddDTO user)
         {
             User userMapped = _mapper.Map<User>(user);
-           BaseResponse<User> baseResponse = _userDB.AddUser(userMapped);
-            if (baseResponse.IsSuccess  )
-            {
-                CreateUserToken(baseResponse.Data.Id);
-                byte[] bytearray = Encoding.ASCII.GetBytes(baseResponse.Data.UserName);
-                _httpContextAccessor.HttpContext.Session.Set(SessionKeys.UserName, bytearray);
-            } 
-           
-            return baseResponse;
-        }
-        public BaseResponse<User> Login(UserLoginDTO user)
-        {
-            User userMapped = _mapper.Map<User>(user);
-            BaseResponse < User> baseResponse = _userDB.Login(userMapped);
+            BaseResponse<UserInfo> baseResponse = _userDB.AddUser(userMapped);
             if (baseResponse.IsSuccess)
             {
-                CreateUserToken(baseResponse.Data.Id);
-                byte[] bytearray = Encoding.ASCII.GetBytes(baseResponse.Data.UserName);
-                _httpContextAccessor.HttpContext.Session.Set(SessionKeys.UserName, bytearray);
+                UserInfo userFromDB = baseResponse.Data;
+                CreateUserToken(userFromDB.Id);
+
+                byte[] bytearray = Encoding.ASCII.GetBytes(JsonConvert.SerializeObject(userFromDB));
+                _httpContextAccessor.HttpContext.Session.Set(SessionKeys.UserInfo, bytearray);
+            }
+
+
+            return baseResponse;
+        }
+        public BaseResponse<UserInfo> Login(UserLoginDTO user)
+        {
+            User userMapped = _mapper.Map<User>(user);
+            BaseResponse < UserInfo> baseResponse = _userDB.Login(userMapped);
+            if (baseResponse.IsSuccess)
+            {
+                UserInfo userFromDB=baseResponse.Data;
+                CreateUserToken(userFromDB.Id);
+               
+              byte[] bytearray = Encoding.ASCII.GetBytes(JsonConvert.SerializeObject(userFromDB));
+                _httpContextAccessor.HttpContext.Session.Set(SessionKeys.UserInfo, bytearray);
             }
 
             return baseResponse;
@@ -69,16 +76,32 @@ namespace BarberShopBL.Services
         {
 
             _httpContextAccessor.HttpContext.Response.Cookies.Delete(CookiesKeys.AccessToken);
-            _httpContextAccessor.HttpContext.Session.Remove(SessionKeys.UserName);
+            _httpContextAccessor.HttpContext.Session.Remove(SessionKeys.UserInfo);
          
         }
 
-        public string GetUserNameFromSession()
+        public BaseResponse<UserInfo> GetUserFromSession()
         {
+            
             byte[] byteArray;
-            _httpContextAccessor.HttpContext.Session.TryGetValue(SessionKeys.UserName, out byteArray);
-            string userName = Encoding.ASCII.GetString(byteArray);
-            return userName;
+            
+        if(_httpContextAccessor.HttpContext.Session.TryGetValue(SessionKeys.UserInfo,
+             out byteArray))
+            {
+            string userString = Encoding.ASCII.GetString(byteArray);
+                JObject userObject = JsonConvert.DeserializeObject<JObject>(userString);
+
+                // יוצרים אובייקט חדש מסוג UserInfo ומבצעים מיפוי למאפיינים
+                UserInfo user = new UserInfo();
+                user.Id = (int)userObject["Id"];
+                user.UserName = (string)userObject["UserName"];
+                user.Email = (string)userObject["Email"];
+                user.Tel = (string)userObject["Tel"];
+                return   new BaseResponse<UserInfo>() { Data=user,StatusCode=200,IsSuccess=true};
+            }
+           
+          return new BaseResponse<UserInfo>() { IsSuccess=false,StatusCode=404
+              ,ErrorMessage="no session info" };
         }
 
 

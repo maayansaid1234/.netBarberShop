@@ -4,6 +4,7 @@ using BarberShopDB.EF.Models;
 using BarberShopEntities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Buffers.Text;
 
 namespace BarberShopApi.Controllers
 {
@@ -32,9 +33,9 @@ namespace BarberShopApi.Controllers
             try
             {
                
-                BaseResponse<User> baseResponse = _userBL.AddUser(user);
+                BaseResponse<UserInfo> baseResponse = _userBL.AddUser(user);
               
-                return StatusCode(baseResponse.StatusCode, baseResponse.ErrorMessage == null ? baseResponse.Data : baseResponse.ErrorMessage);
+                return StatusCode(baseResponse.StatusCode, baseResponse.IsSuccess ? baseResponse.Data : baseResponse.ErrorMessage);
 
 
             }
@@ -71,9 +72,9 @@ namespace BarberShopApi.Controllers
             try
             {
 
-               BaseResponse<User> baseResponse = _userBL.Login(user);
+               BaseResponse<UserInfo> baseResponse = _userBL.Login(user);
               
-                return StatusCode(baseResponse.StatusCode, baseResponse.ErrorMessage == null ? baseResponse.Data : baseResponse.ErrorMessage);
+                return StatusCode(baseResponse.StatusCode,baseResponse.IsSuccess ? baseResponse.Data : baseResponse.ErrorMessage);
 
             }
             catch (Exception ex)
@@ -109,15 +110,19 @@ namespace BarberShopApi.Controllers
 
 
         [HttpGet]
-    public IActionResult GetUserNameFromSession()
+    public IActionResult GetUserFromSession()
 
     {
         try
-        {               
-            return Ok(_userBL.GetUserNameFromSession());
+        {
+                BaseResponse < UserInfo > baseResponse= _userBL.GetUserFromSession();
+                return StatusCode(baseResponse.StatusCode, baseResponse.IsSuccess ? baseResponse.Data:baseResponse.ErrorMessage ) ;
+                   
+                   
 
-        }
-        catch (Exception ex)
+
+         }
+            catch (Exception ex)
         {
             _logger.LogError($"Error on GetUserName, Message: {ex.Message}," +
                 $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");

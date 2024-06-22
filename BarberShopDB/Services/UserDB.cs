@@ -1,4 +1,5 @@
-﻿using Azure;
+﻿using AutoMapper;
+using Azure;
 using BarberShopDB.EF.Contexts;
 using BarberShopDB.EF.Models;
 using BarberShopDB.Interfaces;
@@ -21,14 +22,16 @@ namespace BarberShopDB.Services
     {
         private readonly BarberShopContext _context;
         private readonly ILogger<UserDB> _logger;
+        private readonly IMapper _mapper;
         public UserDB(BarberShopContext context,
-            ILogger<UserDB> logger)
+            ILogger<UserDB> logger, IMapper mapper)
         {
             _context = context;
             _logger = logger;
+            _mapper = mapper;
         }
 
-        public BaseResponse<User> AddUser(User user)
+        public BaseResponse<UserInfo> AddUser(User user)
         {
             User userFromDB = _context.Users.FirstOrDefault(u =>
            u.UserName == user.UserName );
@@ -41,21 +44,23 @@ namespace BarberShopDB.Services
                 _context.SaveChanges();
                 _logger.LogInformation($"Adding a new User successfully. userName: {user.UserName}" +
                     $" Id:{user.Id}");
-                return new BaseResponse<User>() {StatusCode = 201,
-                    Data = user,IsSuccess=true };
+                UserInfo userinfo = _mapper.Map<UserInfo>(user);
+                return new BaseResponse<UserInfo>() {StatusCode = 201,
+                    Data = userinfo,
+                    IsSuccess=true };
             }
             else
             {
                 _logger.LogWarning($"" +
                    $"Preventing the creation of a user with an existing username {user.UserName}");
-               return new BaseResponse<User>() {
+               return new BaseResponse<UserInfo>() {
                    IsSuccess=false,    
                    StatusCode=409,ErrorMessage="There is  already a user with such user name",};
 
             }
 
         }
-        public BaseResponse<User> Login(User user)
+        public BaseResponse<UserInfo> Login(User user)
         {
 
             User userFromDB = _context.Users.FirstOrDefault(u => u.UserName == user.UserName);
@@ -66,15 +71,16 @@ namespace BarberShopDB.Services
                 if (isPasswordValid)
                 {
                     _logger.LogInformation($"User id: {userFromDB.Id} logged in successfully.");
-
-                    return new BaseResponse<User>() { StatusCode = 200, 
-                        Data = userFromDB,IsSuccess=true };
+                    UserInfo userinfo = _mapper.Map<UserInfo>(userFromDB);
+                    return new BaseResponse<UserInfo>() { StatusCode = 200, 
+                        Data = userinfo,
+                        IsSuccess=true };
                 }
             }
 
 
             _logger.LogWarning("Preventing login with wrong details password or userName ");
-            return new BaseResponse<User>() { StatusCode = 401,IsSuccess=false,
+            return new BaseResponse<UserInfo>() { StatusCode = 401,IsSuccess=false,
                 ErrorMessage = "One or more of the details (password or username) is incorrect."
             };
 

@@ -12,9 +12,9 @@ namespace BarberShopDB.Interfaces
 {
     public interface IUserDB
     {
-        BaseResponse<User>  AddUser(User user);
+        BaseResponse<UserInfo>  AddUser(User user);
         BaseResponse <List<User>> GetAllUsers();
-        BaseResponse<User>  Login(User user);
+        BaseResponse<UserInfo>  Login(User user);
      
 
     }

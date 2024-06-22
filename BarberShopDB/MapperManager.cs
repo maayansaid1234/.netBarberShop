@@ -16,6 +16,7 @@ namespace BarberShopDB
             CreateMap<UserLoginDTO, User>();
             CreateMap<UserAddDTO, User>();
             CreateMap<AppointmentAddAndUpdateDTO, Appointment>();
+            CreateMap<User, UserInfo>();
         }
     }
 }

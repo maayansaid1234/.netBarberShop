@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JImp6qif0jM/VRmrPZTs0J2XgkiInVUqEZHX/CRyY7CUWMGUozhKD7u7lc2HdJUq38WYsaFkck5OJlGTO0Gg3w==",
+  "dgSpecHash": "Ivki3NeXsiMB6/PN/yrvOipcx1phbAz7/U0zbd134Twiv9DUzFygpataVXa2UysHqWyZbWg7yrdJYNvabwL/0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\nirsa\\Desktop\\מעיין סעיד\\C#\\BarberShopApi\\BarberShopBL\\BarberShopBL.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\nirsa\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\nirsa\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
