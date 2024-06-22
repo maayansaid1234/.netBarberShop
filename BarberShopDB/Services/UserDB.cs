@@ -75,7 +75,8 @@ namespace BarberShopDB.Services
 
             _logger.LogWarning("Preventing login with wrong details password or userName ");
             return new BaseResponse<User>() { StatusCode = 401,IsSuccess=false,
-                ErrorMessage = "One or more details: password,userName are wrong" };
+                ErrorMessage = "One or more of the details (password or username) is incorrect."
+            };
 
 
 

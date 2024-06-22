@@ -94,7 +94,7 @@ public BaseResponse<Appointment> UpdateAppointment(int id, Appointment appointme
 
 
     Appointment a = _context.Appointments.FirstOrDefault(
-          app => app.AppointmentTime == appointment.AppointmentTime);
+          app => app.AppointmentTime == appointment.AppointmentTime&&app.Id!=id);
     if (a != null)
     {
         _logger.LogWarning("Preventing the scheduling of an appointment at " +
