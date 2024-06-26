@@ -144,7 +144,7 @@
               "RelativeDocumentMoniker": "BarberShopBL\\Services\\UserBL.cs",
               "ToolTip": "C:\\Users\\nirsa\\Desktop\\\u05DE\u05E2\u05D9\u05D9\u05DF \u05E1\u05E2\u05D9\u05D3\\C#\\BarberShopApi\\BarberShopBL\\Services\\UserBL.cs",
               "RelativeToolTip": "BarberShopBL\\Services\\UserBL.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAFsAAABYAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAF4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T16:54:18.199Z",
               "EditorCaption": ""
@@ -159,8 +159,7 @@
               "RelativeToolTip": "BarberShopBL\\Services\\HaitcutBL.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAAB0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T16:54:16.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T16:54:16.777Z"
             },
             {
               "$type": "Document",
@@ -172,8 +171,7 @@
               "RelativeToolTip": "BarberShopEntities\\SessionKeys.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T13:16:17.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T13:16:17.011Z"
             },
             {
               "$type": "Document",
@@ -185,8 +183,7 @@
               "RelativeToolTip": "BarberShopDB\\Interfaces\\IUserDB.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T21:08:16.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T21:08:16.224Z"
             },
             {
               "$type": "Document",
@@ -198,8 +195,7 @@
               "RelativeToolTip": "BarberShopBL\\Interfaces\\IUserBL.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T21:15:04.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T21:15:04.78Z"
             },
             {
               "$type": "Document",
@@ -211,8 +207,7 @@
               "RelativeToolTip": "BarberShopApi\\Controllers\\UserController.cs",
               "ViewState": "AQIAAGwAAAAAAAAAAAAowHwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T16:54:32.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T16:54:32.44Z"
             },
             {
               "$type": "Document",
@@ -224,8 +219,7 @@
               "RelativeToolTip": "BarberShopApi\\Program.cs",
               "ViewState": "AQIAAHEAAAAAAAAAAAAAwHsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T21:35:32.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T21:35:32.787Z"
             },
             {
               "$type": "Document",
@@ -237,8 +231,7 @@
               "RelativeToolTip": "BarberShopDB\\Services\\AppointmentDB.cs",
               "ViewState": "AQIAAIgAAAAAAAAAAAAAAGcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T15:04:41.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T15:04:41.417Z"
             },
             {
               "$type": "Document",
@@ -250,8 +243,7 @@
               "RelativeToolTip": "BarberShopEntities\\UserInfo.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T21:38:47.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T21:38:47.714Z"
             },
             {
               "$type": "Document",
@@ -263,8 +255,7 @@
               "RelativeToolTip": "BarberShopDB\\Services\\UserDB.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAD8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T21:13:40.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T21:13:40.299Z"
             },
             {
               "$type": "Document",
@@ -276,8 +267,7 @@
               "RelativeToolTip": "BarberShopDB\\MapperManager.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAABIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T21:39:52.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T21:39:52.184Z"
             },
             {
               "$type": "Document",

@@ -1,0 +1,8 @@
+2024-06-25 22:08:37.457 +03:00 [INF] User id: 1 logged in successfully.
+2024-06-25 22:09:12.511 +03:00 [WRN] Preventing login with wrong details password or userName 
+2024-06-25 22:09:18.148 +03:00 [WRN] Preventing login with wrong details password or userName 
+2024-06-25 22:09:29.702 +03:00 [INF] User id: 14 logged in successfully.
+2024-06-25 22:09:45.707 +03:00 [INF] Adding new appointment at :25/06/2024 22:09:45.appointmentTime: 25/06/2024 17:09:00 by user id:14
+2024-06-25 22:10:42.509 +03:00 [INF] Adding new appointment at :25/06/2024 22:10:42.appointmentTime: 28/06/2024 17:10:00 by user id:14
+2024-06-25 22:10:56.678 +03:00 [INF] Updating  appointment code:0from 28/06/2024 17:10:00 to : 28/06/2024 17:10:00
+2024-06-25 22:11:09.230 +03:00 [INF] Deleting appointment code: 47

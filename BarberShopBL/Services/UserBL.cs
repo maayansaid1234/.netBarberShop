@@ -89,14 +89,10 @@ namespace BarberShopBL.Services
              out byteArray))
             {
             string userString = Encoding.ASCII.GetString(byteArray);
-                JObject userObject = JsonConvert.DeserializeObject<JObject>(userString);
-
-                // יוצרים אובייקט חדש מסוג UserInfo ומבצעים מיפוי למאפיינים
-                UserInfo user = new UserInfo();
-                user.Id = (int)userObject["Id"];
-                user.UserName = (string)userObject["UserName"];
-                user.Email = (string)userObject["Email"];
-                user.Tel = (string)userObject["Tel"];
+             
+               
+                UserInfo user = JsonConvert.DeserializeObject<UserInfo>(userString);
+                
                 return   new BaseResponse<UserInfo>() { Data=user,StatusCode=200,IsSuccess=true};
             }
            
